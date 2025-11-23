@@ -1,1 +1,15 @@
 This section will provide details about the tools, techiniques, resources for team member Allwyn's part of the project!
+
+Following is a one-line summary of the tools used:
+
+Drozer 3.1 – A comprehensive Android security assessment framework used to analyze app components, identify exported surfaces, and exploit insecure IPC endpoints.
+
+Drozer Agent APK v3.1.0 – The companion Android app that runs on the device/emulator to expose the app’s attack surface to the Drozer console for testing.
+
+Android Studio 2024.3.1 Meerkat – The official Android development environment used to create, run, and manage Android emulators for dynamic security testing.
+
+Docker Desktop v4.52.0 – A container platform used to run the Drozer console in an isolated environment without requiring native installation.
+
+JADX v1.5.3 – A decompiler tool used for reverse-engineering Android APKs into readable Java/Kotlin code to analyze logic, flows, and security weaknesses.
+
+AndroGoat v2.0.1 – A deliberately vulnerable Android application used for learning, demonstrating, and practicing exploitation techniques such as insecure data storage, access control flaws, and component misuse.
